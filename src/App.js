@@ -6,7 +6,7 @@ import ReduxTest from "./other/1_redux_test";
 
 function MainApp(){
     //return <Basics></Basics>;
-    //return <Hooks></Hooks>;
-    return <ReduxTest></ReduxTest>
+    return <Hooks></Hooks>;
+    //return <ReduxTest></ReduxTest>
 }
 export default MainApp;

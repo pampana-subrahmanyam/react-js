@@ -2,7 +2,6 @@ import { createStore } from 'redux'
 
 //Create Store create a store for us.It will store the varibles
 
-
 function test1() {
     const rootReducer = (state, action) => {
         return state;
@@ -140,9 +139,7 @@ function test6() {
     console.log(store6.getState());
     console.log("State value after add  is = ")
     console.log(store6.getState());
-
     return store6.getState();
-
 }
 
 
