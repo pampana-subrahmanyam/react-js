@@ -1,11 +1,7 @@
 /*
 Components can be passed as props, which stands for properties.
-
 Props are like function arguments, and you send them into the component as attributes.
 */
-
-
-
 
 function CustomText(props){
     //This is a react Functional COmponent

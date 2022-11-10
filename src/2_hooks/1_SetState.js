@@ -10,7 +10,7 @@ import {useState } from 'react';
 */
 
 
-function  WithoutSetStateExample(){
+function  WithoutSetState(){
     //Without set state value of counter increase but it won't reflect in the UI
     let count= 4;
     function setCounterValue(value){
@@ -24,7 +24,7 @@ function  WithoutSetStateExample(){
   </div>)
 }
 
-function SetStateExample(){
+function WithSetState(){
     let [count,setCounterValue]=useState (4);
   return( <div>
     <h1>Set State example:</h1>
@@ -33,5 +33,9 @@ function SetStateExample(){
   </div>)
 }
 
-//export default SetStateExample;
-export default WithoutSetStateExample;
+function SetStateExample(){
+    //return WithSetState();
+    return WithoutSetState();
+}
+
+export default SetStateExample;
